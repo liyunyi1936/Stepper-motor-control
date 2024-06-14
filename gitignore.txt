@@ -1,24 +1,32 @@
-# Keil Generated output files in the sub-directories .\Listings and .\Objects
-*.lst
+*.rar
 *.o
 *.d
 *.crf
-*.lnp
-*.axf
 *.htm
-*.build_log.htm
 *.dep
+*.map
+*.bak
+*.lnp
+*.lst
+*.ini
 *.iex
-*.i
-*.bin
-*.hex
-
-MDK-ARM/DebugConfig
-MDK-ARM/RTE
-
+*.sct
 *.scvd
-#Keil Project screen layout file
-!/MDK-ARM/*.uvoptx
-!/MDK-ARM/*.uvprojx
+*.uvguix
+*.dbg*
+*.uvguix.*
+.mxproject
+ 
+RTE/
+Templates/
+Examples/
+ 
+!*.uvprojx
+!*.h
+!*.c
+!*.ioc
+!*.axf
+!*.bin
+!*.hex
 
 
