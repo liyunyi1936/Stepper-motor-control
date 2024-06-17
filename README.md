@@ -12,7 +12,7 @@ STM32F103 C8T6
 ## 目录结构描述
 
 * [Core]()
-* [Doc]()
+* [doc]()
   * [databook]()
   * [schematic]()
 * [Drivers]()
@@ -23,7 +23,7 @@ STM32F103 C8T6
 
 ## 功能概述
 
-- TIM2发送1k hz的占空比90%的pwm控制步进电机转动
+- TIM2发送1k hz的占空比90%的pwm控制步进电机转动,以10s为一个周期滑块前后移动。
 
 ## 接线图示
 
@@ -32,4 +32,6 @@ STM32F103 C8T6
 
 PA1     ------> TIM2_CH2
 
-​
+PA5     ------> PUL_PIN
+
+PA6     ------> DIR_PIN​
